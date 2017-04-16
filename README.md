@@ -29,30 +29,30 @@ CRUDs example instance of mFW.
 
 
 
-  RECORD CRUD API
-{ message: 'Task accepted',
-  id: '58f3fea19609f5632be2f05f',
-  token: '111df98f0bb9e7aaebb081774c9c1fbe7ee0e351e4f0027c' }
-    ✓ POST should return 200 (106ms)
-[ { _id: '58f3fea19609f5632be2f05f',
+    RECORD CRUD API
+  { message: 'Task accepted',
+    id: '58f3fea19609f5632be2f05f',
+    token: '111df98f0bb9e7aaebb081774c9c1fbe7ee0e351e4f0027c' }
+      ✓ POST should return 200 (106ms)
+  [ { _id: '58f3fea19609f5632be2f05f',
+      user: 'example-user',
+      body: 'Example record body',
+      created: 1492385441092,
+      changed: 1492385441092,
+      token: '111df98f0bb9e7aaebb081774c9c1fbe7ee0e351e4f0027c' } ]
+      ✓ SEARCH should return 200 (82ms)
+  { _id: '58f3fea19609f5632be2f05f',
     user: 'example-user',
     body: 'Example record body',
     created: 1492385441092,
     changed: 1492385441092,
-    token: '111df98f0bb9e7aaebb081774c9c1fbe7ee0e351e4f0027c' } ]
-    ✓ SEARCH should return 200 (82ms)
-{ _id: '58f3fea19609f5632be2f05f',
-  user: 'example-user',
-  body: 'Example record body',
-  created: 1492385441092,
-  changed: 1492385441092,
-  token: '111df98f0bb9e7aaebb081774c9c1fbe7ee0e351e4f0027c' }
-    ✓ GET should return 200
-    ✓ DELETE should return 200 (41ms)
-    ✓ GET after delete should return nothing
-
-
-  5 passing (281ms)
+    token: '111df98f0bb9e7aaebb081774c9c1fbe7ee0e351e4f0027c' }
+      ✓ GET should return 200
+      ✓ DELETE should return 200 (41ms)
+      ✓ GET after delete should return nothing
+  
+  
+    5 passing (281ms)
 
   ```
   
