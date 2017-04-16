@@ -10,7 +10,6 @@ CRUDs example instance of mFW.
 - start service
   ```sh
   # npm run devel-start
-  Server:example-1 gor$ npm run devel-start
 
   > example-1@1.0.0 devel-start /Volumes/DATA/gor/Sites/Repositories/GitHub/itpatrol/microservice/example-1
   > DEBUG=* node  --max-old-space-size=48 example-1.js
@@ -177,7 +176,7 @@ CRUDs example instance of mFW.
   ```
 - to stop service, just run:
   ```sh  
-  Server:example-1 gor$ npm run stop
+  # npm run stop
 
   > example-1@1.0.0 stop /Volumes/DATA/gor/Sites/Repositories/GitHub/itpatrol/microservice/example-1
   > cat `cat .env|grep PIDFILE|awk -F= {'print$2'}` |xargs kill -2  2>&1 &
