@@ -11,7 +11,7 @@ CRUDs example instance of mFW.
   ```sh
   # npm run devel-start
 
-  > example-1@1.0.0 devel-start /Volumes/DATA/gor/Sites/Repositories/GitHub/itpatrol/microservice/example-1
+  > example-1@1.0.0 devel-start /GitHub/microservice-framework/example-1
   > DEBUG=* node  --max-old-space-size=48 example-1.js
 
   cluster:main Starting up 2 workers. +0ms
@@ -24,7 +24,7 @@ CRUDs example instance of mFW.
   ```sh
   # npm run test
   
-  > example-1@1.0.0 test /Volumes/DATA/gor/Sites/Repositories/GitHub/itpatrol/microservice/example-1
+  > example-1@1.0.0 test /GitHub/microservice-framework/example-1
   > mocha  --timeout 15000
 
 
@@ -171,14 +171,14 @@ CRUDs example instance of mFW.
 - now you can interrupt devel mode by ctrl+C and start as a standalone service:
   ```sh
   # npm run start
-  > example-1@1.0.0 start /Volumes/DATA/gor/Sites/Repositories/GitHub/itpatrol/microservice/example-1
+  > example-1@1.0.0 start /GitHub/microservice-framework/example-1
   > DEBUG=http:log,cluster:* node  --max-old-space-size=48 example-1.js >> `cat .env|grep LOGFILE|awk -F= {'print$2'}` 2>&1 &
   ```
 - to stop service, just run:
   ```sh  
   # npm run stop
 
-  > example-1@1.0.0 stop /Volumes/DATA/gor/Sites/Repositories/GitHub/itpatrol/microservice/example-1
+  > example-1@1.0.0 stop /GitHub/microservice-framework/example-1
   > cat `cat .env|grep PIDFILE|awk -F= {'print$2'}` |xargs kill -2  2>&1 &
 
   ```
