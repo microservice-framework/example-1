@@ -1,0 +1,17 @@
+{
+  "id": "/Record",
+  "type": "object",
+  "properties": {
+    "user": {
+      "description": "Record username.",
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "string",
+      "description": "Record body.",
+      "required": true
+    }
+  }
+}
+
