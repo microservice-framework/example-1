@@ -197,3 +197,5 @@ We encorage you to use jscs, so package.json contain jscs comman that you can ru
 ```
 # npm run jscs
 ```
+
+In file `schema/record.json` you can define fields for your record. Each POST request will be validated to match data to this record specification.
