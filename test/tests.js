@@ -19,7 +19,6 @@ describe('RECORD CRUD API',function(){
     }
 
     client.post(Record, function(err, handlerResponse){
-      console.log(handlerResponse);
       RecordID = handlerResponse.id;
       RecordToken = handlerResponse.token;
 
@@ -30,7 +29,6 @@ describe('RECORD CRUD API',function(){
 
   it('SEARCH should return 200',function(done){
     client.search({ "user": "example-user" }, function(err, handlerResponse){
-      console.log(handlerResponse);
       expect(err).to.equal(null);
       expect(handlerResponse).to.not.equal(null);
       done();
@@ -39,7 +37,6 @@ describe('RECORD CRUD API',function(){
 
   it('GET should return 200',function(done){
     client.get(RecordID, RecordToken, function(err, handlerResponse){
-      console.log(handlerResponse);
       expect(err).to.equal(null);
       done();
     });
