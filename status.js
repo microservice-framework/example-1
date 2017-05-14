@@ -9,6 +9,6 @@ if (process.env.PIDFILE) {
   }catch(e) {}
 }
 
-console.log(JSON.stringify({
-  "example-1" : pid
-}));
+var result = {}
+result[process.env.npm_package_name] = pid;
+console.log(JSON.stringify(result));

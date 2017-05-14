@@ -1,6 +1,6 @@
 {
   "name": "example-1",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Basic example instance of mFW",
   "main": "example-1.js",
   "scripts": {
@@ -20,13 +20,13 @@
     "url": "https://github.com/microservice-framework/example-1/issues"
   },
   "dependencies": {
-    "@microservice-framework/microservice": "^1.1.0",
-    "@microservice-framework/microservice-cluster": "^1.1.2",
-    "@microservice-framework/microservice-router-register": "^1.2.0",
+    "@microservice-framework/microservice": "^1.2.5",
+    "@microservice-framework/microservice-cluster": "^1.2.1",
+    "@microservice-framework/microservice-router-register": "^1.2.7",
     "dotenv": "^2.0.0"
   },
   "devDependencies": {
-    "@microservice-framework/microservice-client": "^1.1.0",
+    "@microservice-framework/microservice-client": "^1.2.2",
     "chai": "^3.5.0",
     "mocha": "^3.0.2"
   },
