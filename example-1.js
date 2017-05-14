@@ -5,7 +5,6 @@
 
 const Cluster = require('@microservice-framework/microservice-cluster');
 const Microservice = require('@microservice-framework/microservice');
-const MicroserviceRouterRegister = require('@microservice-framework/microservice-router-register');
 
 require('dotenv').config();
 
