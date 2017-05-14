@@ -52,7 +52,7 @@ describe('RECORD CRUD API',function(){
 
   it('GET after delete should return nothing',function(done){
     client.get(RecordID, RecordToken, function(err, handlerResponse){
-      expect(handlerResponse.message).to.equal('Not found');
+      expect(err).to.not.equal(null);
       done();
     });
   });

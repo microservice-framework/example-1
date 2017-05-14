@@ -38,18 +38,6 @@
       "default": 2,
       "required": true
     },
-    "self_path": {
-      "type": "string",
-      "description": "SELF PATH",
-      "default": "auth",
-      "required": true
-    },
-    "self_url": {
-      "type": "string",
-      "description": "SELF URL",
-      "default": "http://localhost:15001/",
-      "required": true
-    },
     "schema": {
       "type": "string",
       "description": "Do not change",
