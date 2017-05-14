@@ -22,7 +22,6 @@
   "dependencies": {
     "@microservice-framework/microservice": "^1.2.5",
     "@microservice-framework/microservice-cluster": "^1.2.1",
-    "@microservice-framework/microservice-router-register": "^1.2.7",
     "dotenv": "^2.0.0"
   },
   "devDependencies": {
